@@ -1,0 +1,33 @@
+html,body{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(51, 30, 167);
+    font-size: 50pt; 
+       
+}
+
+.container{
+    padding: 1em;
+    color:rgb(49, 134, 214);
+            
+}
+
+/* .myIcon{
+    font-size: 30pt;
+    color:wheat;
+
+} */
+.container > i{
+    font-size: 100pt;
+    color:rgb(158, 190, 13);
+    outline-style: solid;
+    margin: 30px;
+  background: yellow;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}

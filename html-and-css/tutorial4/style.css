@@ -1,0 +1,43 @@
+* { 
+background-color: blue;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    border:1px solid black;
+    padding: 1em;
+    color: rgb(204, 112, 50);
+
+}
+#maincontainer{
+    background-color: rgb(48, 175, 37);
+    border:1px solid rgb(199, 14, 14);
+    border-bottom-color:crimson;
+    border-bottom-widht:1px;
+    border-bottom-style: dashed;
+    padding: 10px;
+}
+input[name=username],input[name=comment]{
+    background-color: chartreuse;
+    color: black;
+}
+
+input[name=phone]{
+background-color: rgb(5, 5, 5);
+color: blanchedalmond;
+
+}
+
+li{
+    color: red;
+    list-style-type: none;
+}
+li[name=item]{
+    color: springgreen;
+}
+#maincntainer> .row > .col:nth-child(2){
+
+}
