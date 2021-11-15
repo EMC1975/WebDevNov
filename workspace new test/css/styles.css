@@ -1,0 +1,15 @@
+body {
+    font-family: arial;
+    background-color:rgb(73, 71, 71);padding: 125px ;}
+    h1 {
+    color:rgb(10, 10, 15);}
+header {
+    color:white;
+    padding:1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    border-bottom-color: rgb(39, 38, 38);
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+}
